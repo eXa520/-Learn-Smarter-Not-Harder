@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Document metadata -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Strategies to program your brain to learn faster and more efficiently." />
+  <title>W6 Assignment: Web Page</title>
+
+  <!-- Internal CSS for basic styling; you can move this to styles.css -->
+  <style>
+    /* Global reset and typography */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f9; /* light neutral background */
+      color: #333;
+    }
+
+    /* Header and navigation */
+    header, footer {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem 2rem;
+    }
+    header h1, footer p {
+      margin: 0;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      margin-top: 0.5rem;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Main content */
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      background-color: #fff;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    section img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-top: 1rem;
+    }
+
+    /* Utility */
+    .strategy-list {
+      list-style-type: disc;
+      margin-left: 1.5rem;
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Site header with title and navigation -->
+  <header>
+    <h1>Program Your Brain</h1>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#active-recall">Active Recall</a></li>
+        <li><a href="#spaced-repetition">Spaced Repetition</a></li>
+        <li><a href="#interleaving">Interleaving</a></li>
+        <li><a href="#chunking">Chunking</a></li>
+        <li><a href="#elaboration">Elaboration</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content area -->
+  <main>
+    <!-- Introduction / Hero section -->
+    <section id="introduction">
+      <h2>Welcome</h2>
+      <p>Discover neuroscience-backed techniques to accelerate your learning and boost retention.</p>
+      <!-- Replace with your actual image file -->
+      <img src="images/brain_intro.jpg" alt="Illustration of a brain lighting up">
+    </section>
+
+    <!-- Active Recall -->
+    <section id="active-recall">
+      <h2>Active Recall</h2>
+      <p>Test yourself instead of passively reviewing notes. This retrieval practice creates stronger memory pathways.</p>
+      <img src="images/active_recall.jpg" alt="Student using flashcards">
+    </section>
+
+    <!-- Spaced Repetition -->
+    <section id="spaced-repetition">
+      <h2>Spaced Repetition</h2>
+      <p>Review material at spaced intervals (1 day, 3 days, 1 week…) to defeat the forgetting curve.</p>
+      <img src="images/spaced_repetition.jpg" alt="Calendar showing spaced study schedule">
+    </section>
+
+    <!-- Interleaving -->
+    <section id="interleaving">
+      <h2>Interleaving</h2>
+      <p>Mix topics or skills in one session to improve adaptability and problem-solving.</p>
+      <img src="images/interleaving.jpg" alt="Different subjects interwoven">
+    </section>
+
+    <!-- Chunking -->
+    <section id="chunking">
+      <h2>Chunking</h2>
+      <p>Break complex information into bite-sized “chunks” to reduce cognitive load.</p>
+      <img src="images/chunking.jpg" alt="Grouped chunks of data">
+    </section>
+
+    <!-- Elaboration -->
+    <section id="elaboration">
+      <h2>Elaboration</h2>
+      <p>Connect new ideas to what you already know—use analogies, stories, or mind maps for deeper understanding.</p>
+      <img src="images/elaboration.jpg" alt="Mind map linking concepts">
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
